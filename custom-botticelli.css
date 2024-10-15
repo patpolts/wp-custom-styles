@@ -10,16 +10,16 @@ a.img_link.usericon_cont.account-icon{
 /*
     gtranslate plugin
 */
-.gt_float_wrapper{
+.gtranslate_wrapper > .gt_float_wrapper{
     top: 5px !important;
     left: 5px !important;
 }
-.gt_float_switcher{
+.gtranslate_wrapper > .gt_float_wrapper > .gt_float_switcher{
     font-size: 1em !important;
 }
-.gt_float_switcher .gt-selected .gt-current-lang{
+.gtranslate_wrapper > .gt_float_wrapper > .gt-selected > .gt-current-lang{
     padding: .5em !important;
 }
-.gt_float_switcher > img{
+.gtranslate_wrapper > .gt_float_wrapper > .gt-selected > .gt-current-lang > img{
     width: 1.5em !important;
 }
