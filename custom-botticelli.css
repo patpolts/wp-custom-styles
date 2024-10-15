@@ -11,12 +11,15 @@ a.img_link.usericon_cont.account-icon{
     gtranslate plugin
 */
 .gt_float_wrapper{
-    top: .5em;
-    left: .5em;
+    top: 5px !important;
+    left: 5px !important;
 }
-.gt_float_wrapper .gt_float_switcher.notranslate{
-    font-size: 1em;
+.gt_float_switcher{
+    font-size: 1em !important;
 }
 .gt_float_switcher .gt-selected .gt-current-lang{
-    padding: .3em;
+    padding: .5em !important;
+}
+.gt_float_switcher > img{
+    width: 1.5em !important;
 }
