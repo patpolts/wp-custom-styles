@@ -1,6 +1,22 @@
-
+/*
+    header
+*/
 a.img_link.usericon_cont.whatsapp-icon,
 a.img_link.usericon_cont.login-icon,
 a.img_link.usericon_cont.account-icon{
 	margin: 0px .5em 0px 0px;
+}
+
+/*
+    gtranslate plugin
+*/
+.gt_float_wrapper{
+    top: .5em;
+    left: .5em;
+}
+.gt_float_wrapper .gt_float_switcher.notranslate{
+    font-size: 1em;
+}
+.gt_float_switcher .gt-selected .gt-current-lang{
+    padding: .3em;
 }
