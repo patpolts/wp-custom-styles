@@ -10,7 +10,10 @@ a.img_link.usericon_cont.account-icon{
 /*
     gtranslate plugin
 */
-.gtranslate_wrapper > .gt_float_wrapper{
+.gtranslate_wrapper * {
+    font-size: 1em !important; 
+}
+.gtranslate_wrapper  .gt_float_wrapper{
     top: 5px !important;
     left: 5px !important;
 }
