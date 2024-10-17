@@ -18,6 +18,7 @@ a.img_link.usericon_cont.account-icon{
 }
 .single_bgr .single_split {
     padding: 3em 0;
+    margin: 0 0 3em 0;
 }
 .single_bgr .single_split .single_splitL{
     width: calc(55% - 2em);
@@ -47,8 +48,15 @@ a.img_link.usericon_cont.account-icon{
     }
     .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next:hover, 
     .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev:hover{
-        background: rgba(255, 255, 255, .9);
+        background: rgba(255, 128, 49, 0.9);
 
+    }
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next:hover::after, 
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next:hover::before, 
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev:hover::after,
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev:hover::before
+    {
+        color: #fff;
     }
 
 @media (max-width: 1289px) and (min-width: 992px) {
