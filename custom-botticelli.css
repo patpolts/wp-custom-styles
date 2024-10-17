@@ -14,6 +14,7 @@ a.img_link.usericon_cont.account-icon{
 
 .single .single_bgr .padder{
     word-break: break-all;
+    padding: 0 2em;
 }
 .single_bgr .single_split {
     padding: 3em 0;
@@ -28,19 +29,33 @@ a.img_link.usericon_cont.account-icon{
     background: #fff;
     border-radius: .8em;
 }
+    .single_splitR #form_singleProduct h1{
+        font-size: 2em;
+        margin: 0;
+    }
+
 .single_bgr .single_split .single_splitL .single_showroom_cont{
     margin: 0 0 0 4em;
     width: 100vh;
 }
 
 @media (max-width: 1289px) and (min-width: 992px) {
+    .single .single_bgr .padder{
+        word-break: break-all;
+        padding: 0 1em;
+    }
     .single_splitR{
-        width: inherit;
-        padding: inherit;
+        width: calc(45% - 3em);
+        padding: 1.5em;
         margin: inherit;
     }
+        .single_splitR #form_singleProduct h1{
+            font-size: 1.5em;
+            line-height: 1.3;
+        }
+
     .single_splitL {
-        width: inherit;
+        width: calc(55% - 1em);
         padding: inherit;
     }
 }
