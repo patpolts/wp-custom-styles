@@ -110,7 +110,7 @@ a.img_link.usericon_cont.account-icon{
         }
 }
 
-@media (max-width: 991px) and (min-width: 600px){
+@media (max-width: 991px) and (min-width: 768px){
     .single .single_bgr .padder{
         word-break: break-all;
         padding: 0 .8em;
