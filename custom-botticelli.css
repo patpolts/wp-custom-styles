@@ -22,7 +22,19 @@ a.img_link.usericon_cont.account-icon{
          background: rgba(255, 128, 49, .5);
     }
 
+.div.fp_one.active{
+    width: 400px;
+}
+.footer_subs #mc_embed_signup2 input[type="submit"]{
+    background: #0d6db8;
+    font-size: 12px;
+    transition: all .3s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    cursor: pointer;
+}
+.footer_subs #mc_embed_signup2 input[type="submit"]:hover{
+    background: rgba(255, 128, 49, .8);
 
+}
 /*
     Single Product
 */
@@ -48,7 +60,7 @@ a.img_link.usericon_cont.account-icon{
     .single_splitR #form_singleProduct h1{
         font-size: 2em;
         margin: 0;
-        font-weight: 600;
+        font-weight: bold;
     }
 
 .single_bgr .single_split .single_splitL .single_showroom_cont{
@@ -189,5 +201,16 @@ a.img_link.usericon_cont.account-icon{
         height: 2em;
         transition: all .3s ease-out;
         background: rgba(255, 128, 49, 0.9);
+    }
+}
+@media (max-width: 767px){
+    .single_bgr .single_split .single_splitR{
+        width: 100%;
+        padding: 1em;
+        height: auto;
+    }
+    .single_splitR #form_singleProduct h1 {
+        font-size: 1.8em;
+        margin: .5em 0;
     }
 }
