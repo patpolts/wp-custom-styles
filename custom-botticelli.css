@@ -7,6 +7,21 @@ a.img_link.usericon_cont.account-icon{
 	margin: 0px .5em 0px 0px;
 }
 
+/*
+    DEFAULTS
+*/
+/* /top button */
+.add_btn_sticky.single .upbutton {
+    bottom: 10vh;
+    right: 1vh;
+    background: rgba(255, 128, 49, .8);
+    color: #fff;
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+    .add_btn_sticky.single .upbutton:hover{
+         background: rgba(255, 128, 49, .5);
+    }
+
 
 /*
     Single Product
@@ -59,6 +74,7 @@ a.img_link.usericon_cont.account-icon{
         color: #fff;
     }
 
+
 @media (max-width: 1289px) and (min-width: 992px) {
     .single .single_bgr .padder{
         word-break: break-all;
@@ -79,19 +95,30 @@ a.img_link.usericon_cont.account-icon{
         padding: inherit;
     }
         .single_bgr .single_split .single_splitL .single_showroom_cont{
-            margin: 0 0 0 2em
+            margin: 0 0 0 2em;
+            width: 70vh;
+        }
+
+    
+        .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next, 
+        .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev{
+            width: 3em;
+            height: 3em;
+            transition: all .3s ease-out;
+            background: rgba(255, 128, 49, 0.9);
         }
 }
 
-@media (max-width: 991px) and (min-width: 768px){
+@media (max-width: 991px) and (min-width: 600px){
     .single .single_bgr .padder{
         word-break: break-all;
         padding: 0 .8em;
     }
+    
     .single_splitR{
-        width: calc(45% - 1.6em);
-        padding: 1.5em;
-        margin: inherit;
+        width: calc(60% - 2em);
+        padding: 1em;
+        margin: 0px 0px 0px 1em;
     }
         .single_splitR #form_singleProduct h1{
             font-size: 1.3em;
@@ -102,7 +129,13 @@ a.img_link.usericon_cont.account-icon{
         width: calc(55% - 2em);
         padding: inherit;
     }
+        .single_splitL .single_slide_cont{
+            width: 50vh;
+            margin: 0;
+        
+        }
         .single_bgr .single_split .single_splitL .single_showroom_cont{
-            margin: 0 0 0 1em
+            margin: 0 0 0 1em;
+            width: 100%;
         }
 }
