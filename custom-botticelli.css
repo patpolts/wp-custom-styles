@@ -1,0 +1,17 @@
+/*
+    header
+*/
+a.img_link.usericon_cont.whatsapp-icon,
+a.img_link.usericon_cont.login-icon,
+a.img_link.usericon_cont.account-icon{
+	margin: 0px .5em 0px 0px;
+}
+
+
+/*
+    Single Product
+*/
+.single .padder{
+    padding: 0 2em;
+    word-break: break-all !important;
+}
