@@ -38,6 +38,18 @@ a.img_link.usericon_cont.account-icon{
     margin: 0 0 0 4em;
     width: 100vh;
 }
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next, 
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev{
+        width: 4em;
+        height: 4em;
+        transition: all .3s ease-out;
+        background: rgba(255, 255, 255, .3);
+    }
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next:hover, 
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev:hover{
+        background: rgba(255, 255, 255, .9);
+
+    }
 
 @media (max-width: 1289px) and (min-width: 992px) {
     .single .single_bgr .padder{
@@ -58,4 +70,31 @@ a.img_link.usericon_cont.account-icon{
         width: calc(55% - 1em);
         padding: inherit;
     }
+        .single_bgr .single_split .single_splitL .single_showroom_cont{
+            margin: 0 0 0 2em
+        }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .single .single_bgr .padder{
+        word-break: break-all;
+        padding: 0 .8em;
+    }
+    .single_splitR{
+        width: calc(45% - 1.6em);
+        padding: 1.5em;
+        margin: inherit;
+    }
+        .single_splitR #form_singleProduct h1{
+            font-size: 1.3em;
+            line-height: 1;
+        }
+
+    .single_splitL {
+        width: calc(55% - 2em);
+        padding: inherit;
+    }
+        .single_bgr .single_split .single_splitL .single_showroom_cont{
+            margin: 0 0 0 1em
+        }
 }
