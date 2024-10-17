@@ -11,6 +11,36 @@ a.img_link.usericon_cont.account-icon{
 /*
     Single Product
 */
+
 .single .single_bgr .padder{
     word-break: break-all;
+}
+.single_bgr .single_split {
+    padding: 3em 0;
+}
+.single_bgr .single_split .single_splitL{
+    width: calc(55% - 2em);
+    padding: 0;
+}
+.single_bgr .single_split .single_splitR{
+    width: calc(45% - 2em);
+    padding: 2em;
+    background: #fff;
+    border-radius: .8em;
+}
+.single_bgr .single_split .single_splitL .single_showroom_cont{
+    margin: 0 0 0 4em;
+    width: 100vh;
+}
+
+@media (max-width: 1289px) and (min-width: 992px) {
+    .single_splitR{
+        width: inherit;
+        padding: inherit;
+        margin: inherit;
+    }
+    .single_splitL {
+        width: inherit;
+        padding: inherit;
+    }
 }
