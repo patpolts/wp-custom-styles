@@ -8,21 +8,9 @@ a.img_link.usericon_cont.account-icon{
 }
 
 /*
-    gtranslate plugin
+    Single Product
 */
-.gtranslate_wrapper * {
-    font-size: 1em !important; 
-}
-.gtranslate_wrapper  .gt_float_wrapper{
-    top: 5px !important;
-    left: 5px !important;
-}
-.gtranslate_wrapper > .gt_float_wrapper > .gt_float_switcher{
-    font-size: 1em !important;
-}
-.gtranslate_wrapper > .gt_float_wrapper > .gt-selected > .gt-current-lang{
-    padding: .5em !important;
-}
-.gtranslate_wrapper > .gt_float_wrapper > .gt-selected > .gt-current-lang > img{
-    width: 1.5em !important;
+.single .padder{
+    padding: 0 2em;
+    word-break: break-all;
 }
