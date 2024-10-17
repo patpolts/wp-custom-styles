@@ -10,7 +10,7 @@ a.img_link.usericon_cont.account-icon{
 /*
     Single Product
 */
-.single .padder{
+.single > .single_bgr > .padder{
     padding: 0 2em;
     word-break: break-all;
 }
