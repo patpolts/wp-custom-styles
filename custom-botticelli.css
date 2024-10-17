@@ -173,13 +173,21 @@ a.img_link.usericon_cont.account-icon{
         width: calc(40% - 2em);
         padding: inherit;
     }
-        .single_splitL .single_slide_cont{
-            width: 50vh;
-            margin: 0;
-        
-        }
-        .single_bgr .single_split .single_splitL .single_showroom_cont{
-            margin: 0 0 0 1em;
-            width: 100%;
-        }
+    .single_splitL .single_slide_cont{
+        width: 59vh;
+        margin: 0;
+    
+    }
+    .single_bgr .single_split .single_splitL .single_showroom_cont{
+        margin: 0 0 0 1em;
+        width: 100%;
+    }
+
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-next, 
+    .single_bgr .single_split .single_splitL .single_showroom_cont .slider-prev{
+        width: 2em;
+        height: 2em;
+        transition: all .3s ease-out;
+        background: rgba(255, 128, 49, 0.9);
+    }
 }
