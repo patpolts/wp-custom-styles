@@ -97,7 +97,8 @@ a.img_link.usericon_cont.account-icon{
 @media (max-width: 1289px) and (min-width: 992px) {
     
     .welcome .left_block .item-content{
-        margin-left: 55%;
+        margin-left: 50% !important;
+        margin-top: 15% !important;
     }
     .single .single_bgr .padder{
         word-break: break-all;
@@ -133,6 +134,14 @@ a.img_link.usericon_cont.account-icon{
 }
 
 @media (max-width: 991px) and (min-width: 768px){
+    
+    .welcome .item picture img, .welcome .item video{
+        object-fit: contain;
+    }
+    .welcome .left_block .item-content{
+        margin-left: 47% !important;
+        margin-top: 15% !important;
+    }
     .single .single_bgr .padder{
         word-break: break-all;
         padding: 0 .8em;
@@ -222,5 +231,11 @@ a.img_link.usericon_cont.account-icon{
     .single_splitR #form_singleProduct h1 {
         font-size: 1.8em;
         margin: .5em 0;
+    }
+    .welcome .left_block .item-content{
+        margin: 73% 0 0 53% !important;
+    }
+    .welcome .item picture img, .welcome .item video{
+        object-fit: contain;
     }
 }
