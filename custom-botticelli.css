@@ -87,13 +87,11 @@ a.img_link.usericon_cont.account-icon{
         color: #fff;
     }
 
-    .welcome .left_block .item-content{
-        margin-left: 55%;
-    }
-
+   
 @media (min-width: 1400px) {
     .welcome .left_block .item-content{
         margin-left: 55% !important;
+        margin-top: 15% !important;
     }
 }
 @media (max-width: 1289px) and (min-width: 992px) {
