@@ -87,14 +87,20 @@ a.img_link.usericon_cont.account-icon{
         color: #fff;
     }
 
-.welcome .item-content{
-    margin-left: 55%;
+    .welcome .left_block .item-content{
+        margin-left: 55%;
+    }
+
+@media (min-width: 1400px) {
+    .welcome .left_block .item-content{
+        margin-left: 55%;
+    }
 }
 @media (max-width: 1289px) and (min-width: 992px) {
     
-.welcome .item-content{
-    margin-left: 55%;
-}
+    .welcome .left_block .item-content{
+        margin-left: 55%;
+    }
     .single .single_bgr .padder{
         word-break: break-all;
         padding: 0 1em;
