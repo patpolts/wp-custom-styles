@@ -239,12 +239,16 @@ a.img_link.usericon_cont.account-icon{
         margin: .5em 0;
     }
     .welcome .left_block .item-content{
-        margin: 75% 0 0 67%!important;
+        margin: 35% 0 0 62%!important;
     }
     .welcome .item picture img, .welcome .item video{
         object-fit: contain;
     }
     .welcome .ttgallery>div{
-        margin-top: -36% !important;
+        margin-top: 0 !important;
+        max-height: 660px;
+    }
+    .welcome .item picture img, .welcome .item video{
+        top: -20%;
     }
 }
