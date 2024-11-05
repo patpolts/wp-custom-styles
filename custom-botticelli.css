@@ -223,8 +223,8 @@ a.img_link.usericon_cont.account-icon{
     }
 }
 @media (max-width: 767px){
-    .welcome .item.top_block_mob{
-        margin: -36% 0 0 0;
+    .welcome{
+        margin: -36% 0 0 0 ;
     }
     .welcome .arrow_btn{
         font-weight: 700;
