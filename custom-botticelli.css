@@ -224,7 +224,7 @@ a.img_link.usericon_cont.account-icon{
 }
 @media (max-width: 767px){
    .flex_order{
-    align-items: flex-start;
+    /* align-items: flex-start; */
    }
     .welcome .arrow_btn{
         font-weight: 700;
