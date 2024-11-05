@@ -245,6 +245,6 @@ a.img_link.usericon_cont.account-icon{
         object-fit: contain;
     }
     .welcome .ttgallery>div{
-        margin: -36% 0 0 0 !important;
+        margin-top: -36% !important;
     }
 }
