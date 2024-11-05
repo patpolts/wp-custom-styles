@@ -223,6 +223,14 @@ a.img_link.usericon_cont.account-icon{
     }
 }
 @media (max-width: 767px){
+    .welcome .item.top_block_mob{
+        margin: -36% 0 0 0;
+    }
+    .welcome .arrow_btn{
+        font-weight: 700;
+        font-size: 12px;
+        padding: 1em;
+    }
     .single_bgr .single_split .single_splitR{
         width: 100%;
         padding: 1em;
@@ -233,7 +241,7 @@ a.img_link.usericon_cont.account-icon{
         margin: .5em 0;
     }
     .welcome .left_block .item-content{
-        margin: 73% 0 0 53% !important;
+        margin: 75% 0 0 67%!important;
     }
     .welcome .item picture img, .welcome .item video{
         object-fit: contain;
