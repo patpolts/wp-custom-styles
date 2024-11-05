@@ -252,3 +252,17 @@ a.img_link.usericon_cont.account-icon{
         top: -20%;
     }
 }
+@media (max-width: 367px){
+    .welcome .left_block .item-content{
+        margin: 23% 0 0 54%!important;
+    }
+    .welcome .arrow_btn{
+        font-weight: 700;
+        font-size: 11px;
+        padding: .8em;
+    }
+    .welcome .ttgallery>div{
+        margin-top: 0 !important;
+        max-height: 421px;
+    }
+}
