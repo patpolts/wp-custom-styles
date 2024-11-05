@@ -93,7 +93,7 @@ a.img_link.usericon_cont.account-icon{
 
 @media (min-width: 1400px) {
     .welcome .left_block .item-content{
-        margin-left: 55%;
+        margin-left: 55% !important;
     }
 }
 @media (max-width: 1289px) and (min-width: 992px) {
